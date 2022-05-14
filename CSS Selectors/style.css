@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#selectors-info {
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+p.info {
+    font-size: larger;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    margin: 5px 50px;
+}
+
+#anchor-pseudo-class-snippets>img {
+    width: 600px;
+    height: 300px;
+}
+
+#selectors {
+    border: 5px solid black;
+}
+
+#selectors>div {
+    margin: 10px;
+}
+
+#example-1 {
+    width: 300px;
+    height: 25px;
+    background-color: rgb(21, 168, 119);
+    border: 1px rgb(21, 168, 119);
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    margin: 5px 0 10px 50px;
+    color: white;
+}
+
+#example-2 {
+    width: 300px;
+    height: 25px;
+    background-color: rgb(17, 84, 62);
+    border: 1px rgb(17, 84, 62);
+    text-align: center;
+    font-size: medium;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    color: white;
+}
+
+#combination-selector .combinationSelectorChild,
+#pseudo-selector .pseudoSelectorChild {
+    margin: 10px 0 10px 25px;
+}

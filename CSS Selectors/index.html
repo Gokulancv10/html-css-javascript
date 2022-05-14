@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="selectors" id="selectors">
+      <div id="selectors-info">
+        <p class="selectorsHeading" id="selectors-heading"><strong>CSS Selectors</strong></p>
+        <p class="explainSelectors" id="explain-selectors">
+          CSS Selectors are used to find/select the elements that we want to
+          style.
+        </p>
+      </div>
+      <div class="simpleSelector" id="simple-selector">
+        <p class="info">
+          <strong>1. Simple Selector:</strong> Selects elements based on name,
+          id, class.
+        </p>
+        <div id="example-1">I am simple selector example-1</div>
+        <div id="example-2">I am simple selector example-2</div>
+      </div>
+      <div class="combinationSelector" id="combination-selector">
+        <p class="info">
+          <strong>2. Combination Selector:</strong> Select elements based on a
+          specific relationship between them.
+        </p>
+        <div class="childSelector" id="child-selector">
+          <p class="combinationSelectorChild">
+            i, <strong>Child Selector [>]</strong>: Select all the elements that
+            are children to the specified element.
+          </p>
+          <br />
+          <div class="snippets" id="child-selector-snippets">
+            <img
+              src="./images/child_selector_snippet.png"
+              alt="Child Selector Snippet HTML"
+            />
+            <img
+              src="./images/child_selector_css.png"
+              alt="Child Selector Snippet CSS"
+            />
+          </div>
+        </div>
+        <div class="adjacentSiblingSelector" id="adjacent-sibling-selector">
+          <p class="combinationSelectorChild">
+            ii, <strong>Adjacent Sibling Selector [+]</strong>: Select an
+            element that directly after another specific element.
+          </p>
+          <br />
+          <div class="snippets" id="adjacent-selector-snippets">
+            <img
+              src="./images/adjacent_sibling_selector_html.png"
+              alt="Adjacent Sibling Selector HTML"
+            />
+            <img
+              src="./images/adjacent_sibling_selector_css.png"
+              alt="Adjacent Sibling Selector CSS"
+            />
+          </div>
+        </div>
+        <div class="generalSiblingSelector" id="general-sibling-selector">
+          <p class="combinationSelectorChild">
+            iii, <strong>General Sibling Selector [~]</strong>: Selects all the
+            elements after the end tag of the element.
+          </p>
+          <br />
+          <div class="snippets" id="general-selector-snippets">
+            <img
+              src="./images/general_sibling_selector_html.png"
+              alt="General Sibling Selector HTML"
+            />
+            <img
+              src="./images/general_sibling_selector_css.png"
+              alt="General Sibling Selector CSS"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="pseudoSelector" id="pseudo-selector">
+        <p class="info">
+          <strong>3. Pseudo Selector:</strong> Select elements based on a
+          certain state.
+        </p>
+        <div class="anchorPseudoClasses" id="anchor-pseudo-classes">
+          <p class="pseudoSelectorChild">
+            i, <strong>Anchor Pseudo Selector</strong>: Style applies on anchor
+            tags.
+          </p>
+          <br />
+          <div class="snippets" id="anchor-pseudo-class-snippets">
+            <img
+              src="./images/anchor_pseudo_class_html.png"
+              alt="Anchor Pseudo Class HTML"
+            />
+            <img
+              src="./images/anchor_pseudo_class_css.png"
+              alt="Anchor Pseudo Class CSS"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="atributeSelector" id="atribute-selector">
+        <p class="info">
+          <strong>4. Attribute Selector:</strong> Select element based on
+          attribute or attribute value.
+        </p>
+        <div class="snippets" id="attribute-selector-snippets">
+          <img
+            src="./images/attribute-selector-html.png"
+            alt="Attribute Selector HTML"
+          />
+          <img
+            src="./images/attribute-selector-css.png"
+            alt="Attribute Selector CSS"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+input:
