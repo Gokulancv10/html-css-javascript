@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.position {
+    position: static;
+    background-color: rgb(122, 122, 222);
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-bottom: 10px;
+    padding: 25px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.child {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid black;
+    font-size: medium;
+}
+
+.child-one {
+    background-color: rgb(95, 185, 115);
+    color: black;
+}
+
+.child-two {
+    background-color: rgb(206, 110, 58);
+}
+
+.child-three {
+    background-color: hotpink;
+}
+
+/* .relative-position {
+    position: relative;
+} */
+
+.relative-position > .child-one {
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.relative-position > .child-three {
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+
+.absolute-position {
+    position: relative;
+}
+
+.absolute-position > .child-one {
+    position: absolute;
+    top: 25px;
+    left: 250px;
+}
+
+.fixed-position > .child-one {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-position {
+    position: sticky;
+    top: 0;
+    width: 50%;
+}
+
+.sticky-position > .child-one {
+    background-color: rgb(164, 52, 56);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
